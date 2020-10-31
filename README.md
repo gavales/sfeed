@@ -152,23 +152,21 @@ amd64, ARM, aarch64, HPPA, i386, SPARC64, Z80.
 Files
 -----
 
-sfeed             - Read XML RSS or Atom feed data from stdin. Write feed data
-                    in TAB-separated format to stdout.
-sfeed_atom        - Format feed data (TSV) to an Atom feed.
-sfeed_frames      - Format feed data (TSV) to HTML file(s) with frames.
-sfeed_gopher      - Format feed data (TSV) to Gopher files.
-sfeed_html        - Format feed data (TSV) to HTML.
-sfeed_opml_export - Generate an OPML XML file from a sfeedrc config file.
-sfeed_opml_import - Generate a sfeedrc config file from an OPML XML file.
-sfeed_mbox        - Format feed data (TSV) to mbox.
-sfeed_plain       - Format feed data (TSV) to a plain-text list.
-sfeed_twtxt       - Format feed data (TSV) to a twtxt feed.
-sfeed_update      - Update feeds and merge items.
-sfeed_web         - Find urls to RSS/Atom feed from a webpage.
-sfeed_xmlenc      - Detect character-set encoding from a XML stream.
-sfeedrc.example   - Example config file. Can be copied to $HOME/.sfeed/sfeedrc.
-style.css         - Example stylesheet to use with sfeed_html(1) and
-                    sfeed_frames(1).
+- sfeed - Read XML RSS or Atom feed data from stdin. Write feed data in TAB-separated format to stdout.
+- sfeed_atom - Format feed data (TSV) to an Atom feed.
+- sfeed_frames - Format feed data (TSV) to HTML file(s) with frames.
+- sfeed_gopher - Format feed data (TSV) to Gopher files.
+- sfeed_html - Format feed data (TSV) to HTML.
+- sfeed_opml_export - Generate an OPML XML file from a sfeedrc config file.
+- sfeed_opml_import - Generate a sfeedrc config file from an OPML XML file.
+- sfeed_mbox - Format feed data (TSV) to mbox.
+- sfeed_plain - Format feed data (TSV) to a plain-text list.
+- sfeed_twtxt - Format feed data (TSV) to a twtxt feed.
+- sfeed_update - Update feeds and merge items.
+- sfeed_web - Find urls to RSS/Atom feed from a webpage.
+- sfeed_xmlenc - Detect character-set encoding from a XML stream.
+- sfeedrc.example - Example config file. Can be copied to $HOME/.sfeed/sfeedrc.
+- style.css - Example stylesheet to use with sfeed_html(1) and sfeed_frames(1).
 
 
 Files read at runtime by sfeed_update(1)
