@@ -62,7 +62,7 @@ MAN5 = \
 	sfeedrc.5
 DOC = \
 	LICENSE\
-	README\
+	README.md\
 	README.xml
 
 all: ${BIN}
@@ -112,7 +112,7 @@ install: all
 	mkdir -p "${DESTDIR}${DOCPREFIX}"
 	cp -f sfeedrc.example\
 		style.css\
-		README\
+		README.md\
 		README.xml\
 		"${DESTDIR}${DOCPREFIX}"
 	# installing manual pages for general commands: section 1.
@@ -131,7 +131,7 @@ uninstall:
 	rm -f \
 		"${DESTDIR}${DOCPREFIX}/sfeedrc.example"\
 		"${DESTDIR}${DOCPREFIX}/style.css"\
-		"${DESTDIR}${DOCPREFIX}/README"\
+		"${DESTDIR}${DOCPREFIX}/README.md"\
 		"${DESTDIR}${DOCPREFIX}/README.xml"
 	-rmdir "${DESTDIR}${DOCPREFIX}"
 	# removing manual pages.
